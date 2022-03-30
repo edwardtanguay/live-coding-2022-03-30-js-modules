@@ -1,9 +1,10 @@
 export const title = 'Advertisements';
 
-export const getAdvert = () => {
+export const getAdvert = (title, description) => {
 	return `
 	<div class="advert">
-		<div className="title">Test Title</div>	
+		<div className="title">${title}</div>	
+		<div className="description">${description}</div>
 	</div>	
 	`;
 };
