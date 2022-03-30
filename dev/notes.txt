@@ -1,0 +1,4 @@
+- .. create advertisement component (function)
+	- export it
+- from main: import component and display on page
+
